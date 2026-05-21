@@ -57,13 +57,3 @@ function inputfunc5(){
     
 }
 
-var val1 = document.getElementbyId("inp1").innerText;
-var val2 = document.getElementbyId("inp2").innerText;
-var val3 = document.getElementbyId("inp3").innerText;
-var val4 = document.getElementbyId("inp4").innerText;
-var val5 = document.getElementbyId("inp5").innerText;
-
-var concat = val1+val2+val3+val4+val5;
-if (concat.toUpperCase() == "VIRAT"){
-    console.log("you won!);
-}
