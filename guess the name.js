@@ -65,5 +65,5 @@ var val5 = document.getElementbyId("inp5").innerText;
 
 var concat = val1+val2+val3+val4+val5;
 if (concat.toUpper() == "VIRAT"){
-    document.body.style.background = "green";
+    console.log("you won!);
 }
